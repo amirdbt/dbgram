@@ -1,8 +1,8 @@
-import * as firebase from "firebase/app";
+import firebase from "firebase/app";
 import "firebase/storage";
 import "firebase/firestore";
 // Your web app's Firebase configuration
-var firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyCSZwgPxXWDipHl1w_zoHzsCR4RsebHlBk",
   authDomain: "dbgram-4c7e5.firebaseapp.com",
   databaseURL: "https://dbgram-4c7e5.firebaseio.com",
